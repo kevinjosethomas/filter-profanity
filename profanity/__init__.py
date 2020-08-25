@@ -1,0 +1,1 @@
+from .profanity import Profanity
