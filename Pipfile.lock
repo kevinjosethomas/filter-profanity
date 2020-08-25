@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "14bf6a6b7755bf7a2c09459532849616f08b49bf4fc1eaf3ef4f2c4c16287e67"
+            "sha256": "f81e43f390471d812cc7c1cb8f150f8ab753e34d9004e40d116c6e65cf3ca8c4"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -15,14 +15,11 @@
             }
         ]
     },
-    "default": {
-        "filter-profanity": {
-            "path": "."
-        }
-    },
+    "default": {},
     "develop": {
         "filter-profanity": {
-            "path": "."
+            "path": ".",
+            "version": "==1.0.0"
         }
     }
 }
