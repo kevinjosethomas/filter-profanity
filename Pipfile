@@ -7,6 +7,8 @@ verify_ssl = true
 filter-profanity = {path = "."}
 
 [packages]
+fuzzywuzzy = "*"
+python-levenshtein = "*"
 
 [requires]
 python_version = "3.8"
