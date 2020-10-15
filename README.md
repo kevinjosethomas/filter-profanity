@@ -1,4 +1,4 @@
-# filter-profanity
+# filter-profanity [![Badge](https://img.shields.io/pypi/v/filter-profanity?color=3776AB&logo=python&style=for-the-badge)](https://pypi.org/project/filter-profanity/) [![Badge2](https://img.shields.io/pypi/dm/filter-profanity?color=3776AB&logo=python&style=for-the-badge)](https://pypi.org/project/filter-profanity/)
 ``filter-profanity`` is one of the most efficient python packages that provides functionality to censor profanity in text! The package cross-verifies text with a list of opensource profane vocabulary that you can find [here](https://github.com/RobertJGabriel/Google-profanity-words).
 
 This package can be used in many areas including chat applications, bots and anything that handles user input!
