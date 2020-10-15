@@ -21,15 +21,16 @@ class Profanity:
             for char in word:
                 if index == 0:
                     if char in self.cargo.children:
-                        print(char)
                         index += 1
                         continue
                     else:
-                        print(char)
-                        self.cargo.add_child(char)
+                        self.cargo.add_child(Node(char))
                         index += 1
                         continue
-        print(self.cargo)
+                else:
+                    for i in range(index):
+                        self.cargo.children.index(word[i])
+        print(self.cargo.children)
 
     # @staticmethod
     # def censor(text: str, censor_character: str = "*") -> str:
