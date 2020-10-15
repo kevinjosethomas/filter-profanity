@@ -1,1 +1,1 @@
-PROFANE_WORD_LIST = "data/profanity.json"
+PROFANE_WORD_LIST_PATH = "data/profanity.json"
