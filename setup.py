@@ -7,7 +7,7 @@ setuptools.setup(
     name="filter-profanity",
     version="1.0.5",
     author="TrustedMercury",
-    autor_email="trustedmercury@gmail.com",
+    author_email="trustedmercury@gmail.com",
     description="The fastest python module to filter and censor obscene language from strings!",
     long_description=long_description,
     long_description_content_type="text/markdown",
