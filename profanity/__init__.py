@@ -20,7 +20,23 @@ def censor_profanity(text: str, censor: str = "*"):
                 final_text = final_text.replace(word, censor*len(word))
     else:
         for word in PROFANE_WORD_LIST:
-            if word.lower() in split_text:
+            if word in split_text.lower():
                 final_text = final_text.replace(word, censor*len(word))
 
     return final_text
+
+def has_profanity(text: str):
+    """Checks if the text contains any profane content and returns a boolean accordingly"""
+
+    split_text = text.split()
+
+    if len(split_text) < len(PROFANE_WORD_LIST):
+        for word in split_text:
+            if word.lower() in PROFANE_WORD_LIST:
+                return True
+    else:
+        for word in PROFANE_WORD_LIST:
+            if word in split_text.lower():
+                return True
+
+    return False
