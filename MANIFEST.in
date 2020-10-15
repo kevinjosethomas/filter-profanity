@@ -1,1 +1,1 @@
-include *.json
+include profanity/data/profanity.json
