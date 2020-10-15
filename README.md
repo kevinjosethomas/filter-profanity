@@ -1,5 +1,5 @@
 # filter-profanity
-``filter-profanity`` is one of the most efficient python pacakges that provides functionality to censor profanity in text! The package cross-verifies text with a list of opensource profane vocabulary that you can find [here](https://github.com/RobertJGabriel/Google-profanity-words).
+``filter-profanity`` is one of the most efficient python packages that provides functionality to censor profanity in text! The package cross-verifies text with a list of opensource profane vocabulary that you can find [here](https://github.com/RobertJGabriel/Google-profanity-words).
 
 This package can be used in many areas including chat applications, bots and anything that handles user input!
 
@@ -11,21 +11,21 @@ We've developed ``filter-profanity`` to make it as easy as possible to utilize.
 
 Currently, ``filter-profanity`` provides two functions - ``censor_profanity`` and ``has_profanity``
 
-``censor_profanity(text, optional_censor)`` takes in two arguments, the text that it scans for profanity and an optional censor to replace profane language with. If you do not provide a censor, we default to ``*``. Here's an example - 
+``censor_profanity(text, optional_censor)`` takes in two arguments, the text that it scans for profanity and an optional censor to replace profane language with. If you do not provide a censor, we default to ``*``. Here's an example -
 ```
 from profanity import censor_profanity
 
 print(censor_profanity("This code is definitely not sh!t"))
-# Prints - 
+# Prints -
 # This code is definitely not ****
 ```
 
-``has_profanity(text)`` takes in one argument- the text that it must check for profanity. If the provided text has any profane content, it returns ``True`` otherwise it conditionally returns ``False``. Here's an example - 
+``has_profanity(text)`` takes in one argument- the text that it must check for profanity. If the provided text has any profane content, it returns ``True`` otherwise it conditionally returns ``False``. Here's an example -
 ```
 from profanity import has_profanity
 
 print(has_profanity("This code is definitely not sh!t"))
-# Prints - 
+# Prints -
 # True
 ```
 
@@ -33,7 +33,7 @@ print(has_profanity("This code is definitely not sh!t"))
 This package is opensource so anyone with adequate python experience can contribute to this project!
 
 ### Report Issues
-If you find any error/bug/mistake with the package or in the code feel free to 
+If you find any error/bug/mistake with the package or in the code feel free to
 [create an issue and report it here](https://github.com/TrustedMercury/filter-profanity/issues)
 
 ### Fix/Edit Content
