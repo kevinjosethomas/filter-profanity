@@ -11,7 +11,7 @@ setuptools.setup(
     description="The fastest python module to filter and censor obscene language from strings!",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/TrustedMercury/better-profanity",
+    url="https://github.com/TrustedMercury/filter-profanity",
     packages=setuptools.find_packages(),
     include_package_data=True,
     classifiers=[
