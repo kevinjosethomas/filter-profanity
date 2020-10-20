@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="filter-profanity",
-    version="1.0.7",
+    version="1.0.8",
     author="TrustedMercury",
     author_email="trustedmercury@gmail.com",
     description="The fastest python module to filter and censor obscene language from strings!",
