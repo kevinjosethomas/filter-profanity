@@ -3,6 +3,8 @@
 
 This package can be used in many areas including chat applications, bots and anything that handles user input!
 
+Thanks to [@itsmewulf](https://github.com/itsmewulf) and [@Sh-wayz](https://github.com/Sh-wayz) for contributing to the development of this project!
+
 ## Installation
 Installing ``filter-profanity`` is as easy as running ``pip install filter-profanity``!
 
