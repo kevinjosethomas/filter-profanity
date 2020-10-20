@@ -1,6 +1,7 @@
 import os
 import json
 from .config import PROFANE_WORD_LIST_PATH
+from collections import OrderedDict
 
 
 # Convert profane word list from json to array
@@ -8,11 +9,11 @@ with open(os.path.join(os.path.dirname(__file__), PROFANE_WORD_LIST_PATH), "r") 
     PROFANE_WORD_LIST = json.load(_profane_word_list)
 
 
-def censor_profanity(text: str, censor: str = "*"):
+def censor_profanity(text: str, censor: str = "*") -> str:
     """Censors all profane words with the provided censor"""
 
-    split_text = text.split()
-    final_text = " ".join(split_text)
+    split_text: list = text.split()
+    final_text: str = " ".join(split_text)
 
     if len(split_text) < len(PROFANE_WORD_LIST):
         for word in split_text:
@@ -25,10 +26,10 @@ def censor_profanity(text: str, censor: str = "*"):
 
     return final_text
 
-def has_profanity(text: str):
+def has_profanity(text: str) -> bool:
     """Checks if the text contains any profane content and returns a boolean accordingly"""
 
-    split_text = text.lower().split()
+    split_text: list = text.lower().split()
 
     if len(split_text) < len(PROFANE_WORD_LIST):
         for word in split_text:
@@ -40,3 +41,15 @@ def has_profanity(text: str):
                 return True
 
     return False
+
+def get_profanity(text: str, duplicates=True) -> list:
+    """Gets all profane words and returns them in a list"""
+
+    split_text: list = text.lower().split()
+
+    if len(split_text) < len(PROFANE_WORD_LIST):
+        return [word for word in split_text if word in PROFANE_WORD_LIST] if duplicates else list(
+            OrderedDict.fromkeys([word for word in split_text if word in PROFANE_WORD_LIST]))
+    else:
+        return [word for word in PROFANE_WORD_LIST if word in split_text] if duplicates else list(
+            OrderedDict.fromkeys([word for word in split_text if word in PROFANE_WORD_LIST]))
