@@ -29,11 +29,11 @@ print(has_profanity("This code is definitely not sh!t"))
 # True
 ```
 
-``get_profanity(text, duplicates=True)`` takes two arguments - the text to return profanity from, and a boolean specifying if it should return duplicate words or not (defaults to True). If the text has any profane content, it returns a list with detected words, otherwise it returns an empty list. Here's an example -
+``get_profanity(text, duplicates=False)`` takes two arguments - the text to return profanity from, and a boolean specifying if it should return duplicate words or not (defaults to False). If the text has any profane content, it returns a list with detected words, otherwise it returns an empty list. Here's an example -
 ```
 from profanity import get_profanity
 
-print(get_profanity("This code is definitely not sh!t sh!t", duplicates=False))
+print(get_profanity("This code is definitely not sh!t sh!t"))
 # Prints -
 # ['sh!t']
 ```
