@@ -1,10 +1,6 @@
 import os
 import json
-
-from cffi.backend_ctypes import xrange
-
 from .config import PROFANE_WORD_LIST_PATH
-from collections import OrderedDict
 
 # Convert profane word list from json to array
 with open(os.path.join(os.path.dirname(__file__), PROFANE_WORD_LIST_PATH), "r") as _profane_word_list:
