@@ -12,7 +12,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/TrustedMercury/filter-profanity",
-    keywoords="profanity, filter, censor",
+    keywords="profanity, filter, censor",
     packages=setuptools.find_packages(),
     include_package_data=True,
     classifiers=[
