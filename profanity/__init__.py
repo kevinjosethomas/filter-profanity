@@ -51,8 +51,8 @@ def get_profanity(text: str, duplicates=False) -> list:
     if duplicates:
         for word in profane:
             c: int = text.count(word)
-            x: list = [word for _ in range(c - 1)]
             if c > 1:
+                x: list = [word for _ in range(c - 1)]
                 additional.extend(list(x))
     profane.extend(additional)
     return profane
