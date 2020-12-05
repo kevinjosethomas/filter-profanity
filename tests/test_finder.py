@@ -6,7 +6,8 @@ from profanity import get_profanity
 class TestFinder(unittest.TestCase):
     def test_finder_false_small(self):
         self.assertEqual(
-            get_profanity("This doesn't have any profanity, why do I bother"), []
+            get_profanity(
+                "This doesn't have any profanity, why do I bother"), []
         )
 
     def test_finder_true_small(self):

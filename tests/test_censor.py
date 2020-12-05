@@ -7,7 +7,8 @@ class TestCensor(unittest.TestCase):
 
     def test_censor_false_small(self):
         self.assertEqual(
-            censor_profanity("This doesn't have any profanity, why do I bother"),
+            censor_profanity(
+                "This doesn't have any profanity, why do I bother"),
             "This doesn't have any profanity, why do I bother"
         )
 
