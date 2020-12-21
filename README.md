@@ -48,7 +48,7 @@ If you find any error/bug/mistake with the package or in the code feel free to
 [create an issue and report it here](https://github.com/TrustedMercury/filter-profanity/issues)
 
 ### Fix/Edit Content
-If you want to contribute to this package, fork the repository, clone it, make your changes and then [proceed to create a pull request here](https://github.com/TrustedMercury/trustedmercury.github.io/pulls)
+If you want to contribute to this package, fork the repository, clone it, make your changes and then [proceed to create a pull request here](https://github.com/TrustedMercury/filter-profanity/pulls)
 
 ### Contact
 If you want to contact me -  
