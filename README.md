@@ -1,9 +1,16 @@
-# filter-profanity [![Badge](https://img.shields.io/pypi/v/filter-profanity?color=3776AB&logo=python&style=for-the-badge)](https://pypi.org/project/filter-profanity/) [![Badge2](https://img.shields.io/pypi/dm/filter-profanity?color=3776AB&logo=python&style=for-the-badge)](https://pypi.org/project/filter-profanity/)
+# filter-profanity [![Badge](https://img.shields.io/pypi/v/filter-profanity?color=3776AB&logo=python&style=for-the-badge)](https://pypi.org/project/filter-profanity/) [![Badge2](https://img.shields.io/pypi/dm/filter-profanity?color=3776AB&logo=python&style=for-the-badge)](https://pypi.org/project/filter-profanity/) ![](https://api.ghprofile.me/view?username=TrustedMercury-filter-profanity)
 ``filter-profanity`` is one of the most efficient python packages that provides functionality to censor profanity in text! The package cross-verifies text with a list of opensource profane vocabulary that you can find [here](https://github.com/RobertJGabriel/Google-profanity-words).
 
 This package can be used in many areas including chat applications, bots and anything that handles user input!
 
 Thanks to [@itsmewulf](https://github.com/itsmewulf) and [@Sh-wayz](https://github.com/Sh-wayz) for contributing to the development of this project!
+
+## Sidetrack - A little about me
+```
+I'm a 13 year old full-stack web developer and I love working with Python, NodeJS, SQL
+and other cool software! I want to make a positive change with the help of software and
+do some cool stuff as I grow. That's just a little about me, back to the package!
+```
 
 ## Installation
 Installing ``filter-profanity`` is as easy as running ``pip install filter-profanity``!
